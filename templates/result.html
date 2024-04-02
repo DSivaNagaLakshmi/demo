@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+    <h2>BMI calcuator</h2>
+    <form method="post">
+        <label >weight:</label>
+        <input type="number" name="weight"><br><br>
+        <label >height:</label>
+        <input type="number" name="weight"><br><br>
+       </button>submit</button>
+    </form>
+    {% if data %}
+    <label>BMI:</label>
+    <h2>{{data['bmi']}}</h2>
+    <label>Result:</label>
+    <h3>{{data['result'}}</h3>
+    {% endif %}
+    </center>
+</body>
+</html>   
